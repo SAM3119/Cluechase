@@ -1,0 +1,179 @@
+.game-info h3{
+    font-size: 1.45rem;
+    margin-bottom:0;
+}
+.game-info p {
+    color: #919191;
+    font-size: 0.9375rem;
+    font-weight: 500;
+}
+/* --------------- */
+.final-booking-time {
+    margin-left: 15px;
+    border: 1px solid #ABABAB;
+}
+.final-booking-time .top {
+    background: #f7f7f7;
+    padding: 20px 0 15px;
+}
+.final-booking-time .top h3 {
+    position: relative;
+    color: #666;
+    font-size: 1.375rem;
+}
+.final-booking-time .top h3 i {
+    position: absolute;
+    right: 15px;
+}
+.datepicker-inner {
+    opacity: 0;
+    text-align: center;
+    width: 230px !important;
+    margin: -55px auto 0 !important;
+}
+.input-group > .form-control:not(:last-child), .input-group > .custom-select:not(:last-child) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.datepicker-inner input {
+    height: 50px;
+    cursor: pointer;
+}
+.input-append.date .add-on, .input-prepend.date .add-on {
+    cursor: pointer;
+}
+.final-booking-time .bottom {
+    padding: 20px 40px;
+}
+.noti-text {
+    font-size: 1rem;
+    display: none;
+}
+.noti-text img {
+    margin-right: 5px;
+}
+/* ----------------- */
+.person-count {
+    margin-right: 15px;
+}
+.c6 {
+    background-color: #f7f7f7;
+}
+.person-count .top {
+    background: #EBEBEB;
+    padding: 15px 0 10px;
+}
+.person-count .top h3 span {
+    display: block;
+    font-weight: 700;
+}
+.person-count .bottom {
+    padding: 20px 0 10px;
+}
+.person-count .bottom .input-group {
+    justify-content: center;
+    margin: 10px 0 30px;
+}
+.person-count .bottom .input-group .btn {
+    position: relative;
+    z-index: 1;
+}
+.person-count .bottom .input-group .btn {
+    color: #2AC569;
+    font-size: 32px;
+    background: rgba(0, 0, 0, 0);
+    border: 1px solid #ABABAB;
+    border-radius: 0;
+    padding: 18px 40px;
+}
+.btn.disabled, .btn:disabled {
+    opacity: 0.65;
+}
+button, html [type="button"], [type="reset"], [type="submit"] {
+    -webkit-appearance: button;
+}
+
+.person-count .bottom .form-control {
+    max-width: 120px;
+    text-align: center;
+    color: #2AC569;
+    font-size: 48px;
+    font-family: "DIN Next LT Pro bold";
+    border-top: 1px solid #ABABAB;
+    border-bottom: 1px solid #ABABAB;
+    border-width: 1px 0px 1px 0;
+    background: rgba(0, 0, 0, 0);
+}
+.person-count .bottom p {
+    color: #919191;
+    font-size: 0.9375rem;
+    font-weight: 500;
+}
+/* ---------------------- */
+@media only screen and (max-width: 1220px){
+    .info-h {
+        font-size: 1.375rem;
+    }
+}
+.info-h {
+    font-weight: 700;
+    color: #919191;
+    font-size: 1.375rem;
+}
+/* ---------------------- */
+.form-group {
+    margin-bottom: 15px !important;
+}
+.form-group .form-control {
+    padding: 0.7rem;
+    border: 1px solid #ABABAB;
+    border-radius: 0;
+    color: #A6A8AB;
+    font-weight: 500;
+}
+.form-group .validationMessage {
+    display: none;
+    color: #ff4338;
+    font-size: 12px;
+    margin-top: 5px;
+    width: 100%;
+}
+input[type="checkbox"] {
+    box-sizing: border-box;
+    padding: 0;
+    
+}
+.custom-control-input {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+.custom-control-label {
+    margin-bottom: 0;
+    font-family: inherit;
+    font-weight: normal;
+    text-transform: none;
+    font-weight: 500;
+}
+.custom-control .custom-control-input:checked ~ .custom-control-label:before {
+    background-color: #2AC569;
+}
+/* ----------------------- */
+.custom-rounded-btn{
+    border: 1px solid transparent;
+    border-radius: 25px;
+    padding: 15px 40px;
+    background-color: #1b1b1b;
+    color: #f7f7f7;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.previous:hover{
+    /* color: #f7f7f7; */
+    background-color: rgb(204, 29, 29);
+}
+
+.btn-green , .continue:hover{
+    background-color: #2AC569;
+}
+

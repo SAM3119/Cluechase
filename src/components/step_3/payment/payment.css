@@ -1,0 +1,76 @@
+.game-info {
+    margin-left: 0;
+}
+.game-info .top .section-1,
+.middle .section-2,.section-3,
+.bottom .section-1 span {
+    color: #666;
+}
+.game-info .top .section-2 span{
+    color: #A6A8AB;
+    font-size: 0.95rem;
+    font-weight: 400;
+}
+.game-info .top .section-3{
+    width: 20%;
+    margin-bottom: 20px;
+}
+.game-info .top .section-3 a{
+    color: #e6847f !important;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.middle .section-1 input[type=text] {
+    padding-left: 15px;
+    border: 1px solid #ddd;
+  }
+  .middle .section-1 button {
+    padding: 0;
+    background: #ddd;
+    border: none;
+    cursor: pointer;
+  }
+  .middle .section-1 button:hover {
+    background: #ccc;
+  }
+.game-info .bottom .section-1 span:last-of-type {
+    color: #2AC569;
+
+}
+/* ----------------- */
+.payment-section {
+    margin-right: 15px;
+}
+.c6 {
+    background-color: #f7f7f7;
+}
+.payment-section .top {
+    background: #EBEBEB;
+    padding: 15px 0 10px;
+    color: #A6A8AB;
+
+}
+
+.payment-section .bottom .form-control , .exp-date{
+    margin: 15px;
+    width: -webkit-fill-available;
+}
+.payment-section .bottom .exp-date select{
+    padding: 0.5rem;
+    margin-left: 10px;
+    color: #6c757d;
+    font-weight: 600;
+}
+.payment-section .bottom a {
+    position: relative;
+    z-index: 1;
+} 
+ .payment-section .bottom a {
+    color: #f7f7f7;
+    font-size: 1.2rem;
+    background: #2AC569;
+    padding: 5px 0px;
+    text-align: center;
+    text-decoration: none;
+} 
