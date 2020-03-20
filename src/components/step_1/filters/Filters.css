@@ -109,6 +109,7 @@
     font-size: 1rem;
     font-weight: 700;
     color: #919191;
+    caret-color: transparent;
   }
   .date-picker i {
     position: absolute;

@@ -72,7 +72,8 @@ const Filters = () => {
                                         className = "calender-datepicker"
                                         placeholderText = "SELECT A DATE"
                                         minDate={new Date()} 
-                                        onChange={date => setStartDate(date)} />
+                                        onChange={date => setStartDate(date)}
+                                        onKeyDown = {e=>e.preventDefault()} />
                                    <i> <FontAwesomeIcon className="calendar ml-2" icon = {faCalendar}/></i>
 
                             </div>
