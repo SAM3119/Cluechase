@@ -1,33 +1,11 @@
-.steps {
-    width: 50%;
+.steps-1 {
+    width: 60%;
     position: relative;
-    margin: 50px 0 0 285px !important;
+    margin: 50px 0 0 ;
+    float: right;
   }
   
-  .num-line {
-    position: relative;
-    width: 50%;
-    background: #c8c8c8;
-    height: 2px;
-    float: left;
-    transition: 0.3s;
-    -webkit-transition: 0.3s;
-    -moz-transition: 0.3s;
-    -ms-transition: 0.3s;
-    -o-transition: 0.3s;
-  }
-  
-  .num-line .active {
-    position: relative;
-    width: 50%;
-    background: #ca2127;
-    height: 2px;
-  }
-  
-  .num-line:last-child {
-    width: 0;
-  }
-.steps .numbers .num-line .number {
+.steps-1 .numbers .num-line .number {
     width: 40px;
     height: 40px;
     display: flex;
