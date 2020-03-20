@@ -8,7 +8,7 @@ const SelectedGame = ()=> {
         <div className = "container">
             <div className = "row">
                 <div className="col-md-12">
-                    <div className="game-info text-center my-5">
+                    <div className="game-info text-center">
                         <h3>
                             <span>The Heist --- $ 35.99 per person</span> 
                         </h3>
@@ -146,11 +146,8 @@ const SelectedGame = ()=> {
                                     className="form-control" 
                                     id="Billing_billing_firstname" 
                                     placeholder="First Name" 
-                                    data-bind="value: customer().billing_firstname, valueUpdate: &quot;afterkeydown&quot;" 
                                     title="First Name cannot be blank." 
-                                    data-orig-title="" />
-
-                                    <span className="validationMessage" ></span>
+                                    required/>
                             </div>
                         </div>
                         
@@ -161,10 +158,8 @@ const SelectedGame = ()=> {
                                     className="form-control" 
                                     id="Billing_billing_lastname" 
                                     placeholder="Last Name" 
-                                    data-bind="value: customer().billing_lastname, valueUpdate: &quot;afterkeydown&quot;" 
                                     title="Last Name cannot be blank." 
-                                    data-orig-title="" />
-                                    <span className="validationMessage" ></span>
+                                    required />
                             </div>
                         </div>
 
@@ -175,10 +170,8 @@ const SelectedGame = ()=> {
                                     className="form-control" 
                                     id="billing_email" 
                                     placeholder="Email Address" 
-                                    data-bind="value:customer().billing_email, valueUpdate: &quot;afterkeydown&quot;" 
-                                    title="Email Address cannot be blank." 
-                                    data-orig-title=""/>
-                                    <span className="validationMessage" ></span>
+                                   title="Email Address cannot be blank." 
+                                   required />
                             </div>
                         </div>
                         <div className="col-md-3 col-sm-6">
@@ -188,11 +181,9 @@ const SelectedGame = ()=> {
                                     className="form-control" 
                                     id="billing_phone" 
                                     placeholder="Phone Number" 
-                                    data-bind="value:customer().billing_phone, valueUpdate: &quot;afterkeydown&quot;" 
                                     maxLength="10" 
                                     title="Phone Number cannot be blank." 
-                                    data-orig-title="" />
-                                    <span className="validationMessage" ></span>
+                                    required />
                             </div>
                         </div>
                     </div>  
@@ -203,12 +194,9 @@ const SelectedGame = ()=> {
                             name="email_subscribe" 
                             id="email_subscribe" 
                             value="true" 
-                            data-bind="checked:customer().email_subscribe;checkedValue:true" 
-                            title="" />
-                            <span className="validationMessage" ></span>
+                            required />      
                         <label 
-                            className="custom-control-label" 
-                             
+                            className="custom-control-label"              
                             htmlFor="email_subscribe" >
                                 <span>
                                     Sign me up to receive email updates from The Escape Game, including new games and locations.
