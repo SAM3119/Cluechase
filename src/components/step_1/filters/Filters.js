@@ -16,9 +16,9 @@ const Filters = () => {
     return (
         <div className = "filters">
             <div className = "container">
-                <div className = "row">
-                    <div className = "all-filters"> 
-                        <div className = "col-md-4 col-6 order-md-1 order-sm-2 custum-style-2 order-2">
+                <div className = "all-filters">
+                    <div className = "row"> 
+                        <div className = "col-md-4 col-12 ">
                             <div className ="lo align-items-center justify-content-center">
                                 <form  className="form-control">
                                     <select  className = "form-group"
@@ -46,7 +46,7 @@ const Filters = () => {
                             </div>
                         </div>
                     
-                        <div className="col-md-4 order-md-2 order-sm-1 order-1">
+                        <div className="col-md-4 col-12 ">
                             <div className="date-slide d-flex align-items-center justify-content-center">
                                 <span 
                                     data-bind="click:prevDate " 
@@ -65,7 +65,7 @@ const Filters = () => {
                             </div>
                         </div>
                    
-                        <div className="col-md-4 col-6 order-md-3 order-sm-3 custum-style-3 order-3">
+                        <div className="col-md-4 col-12">
                         <div className="date-picker">
                             <div className="form-group">
                                    <DatePicker 
