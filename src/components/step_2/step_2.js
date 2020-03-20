@@ -1,13 +1,13 @@
 import React from 'react';
 
-import Header from './header/Header_Step_2';
+import HeaderStep_2 from './header/Header_Step_2';
 import SelectedGame from './selected-game/selected_game';
 
 
 const Step_2 = () => {
     return(
     <div className = "">
-        <Header />
+        <HeaderStep_2 />
         <SelectedGame />
         {/* <Games /> */}
     </div>
