@@ -5,13 +5,13 @@ import { faCaretLeft } from '@fortawesome/free-solid-svg-icons';
 
 import './Header_step_3.css';
 
-class Header extends Component{
+class HeaderStep_3 extends Component{
     render(){
         return(
             <header className = "header">
                 <div className="container">
-                    <div className="row justify-content-center mb-5 ">
-                    <div className="col-2">
+                    <div className="row align-items-center ">
+                        <div className="col-2">
                             <div className="back">
                                 <span className="d-flex align-items-center">
                                     <FontAwesomeIcon className = "icon i-lf" icon = {faCaretLeft} />
@@ -20,7 +20,7 @@ class Header extends Component{
                             </div>
                         </div>
                         <div className="col-10"> {/*-md-4 col-sm-6 col-7*/}
-                            <div className="steps">
+                            <div className="steps w-50">
                             <div className="numbers">
                                 <div className="num-line active-line">
                                     <div className="number completed">1</div>
@@ -40,4 +40,4 @@ class Header extends Component{
         )
     }
 }
-export default Header;
+export default HeaderStep_3;
