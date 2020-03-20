@@ -6,7 +6,7 @@ const Payment = ()=> {
         <div className = "container">
             <div className = "row">
                 <div className="col-md-12">
-                    <div className="game-info text-center mb-3">
+                    <div className="game-info text-center">
                         <h3>
                             <span className="text-uppercase">cart</span> 
                         </h3>
