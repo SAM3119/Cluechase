@@ -3,7 +3,6 @@
     margin-top: 1rem !important;
 }
 .all-filters {
-    display: flex;
     border-top: 2px solid #c8c8c8;
     border-bottom: 2px solid #c8c8c8;
     width: -webkit-fill-available;
@@ -34,18 +33,7 @@
    
 }
 /* -------------------------------------------- */
-@media (min-width: 768px){
-.order-md-1 {
-    order: 1;
-    }
-}
-@media (min-width: 768px){
-.col-md-4 {
-    flex: 0 0 33.3333333333%;
-    max-width: 33.3333333333%;
-    }
-}
-/* ---------------- */
+
 .all-filters .date-slide {
     border-right: 2px solid #c8c8c8;
     border-left: 2px solid #c8c8c8;
@@ -126,4 +114,3 @@
     display: flex;
     align-items: center;
 }
-
