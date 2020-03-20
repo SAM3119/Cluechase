@@ -75,24 +75,14 @@
     margin: 10px 0 30px;
 }
 .person-count .bottom .input-group .btn {
-    position: relative;
-    z-index: 1;
-}
-.person-count .bottom .input-group .btn {
     color: #2AC569;
     font-size: 32px;
     background: rgba(0, 0, 0, 0);
     border: 1px solid #ABABAB;
     border-radius: 0;
     padding: 18px 40px;
+    box-shadow: none;
 }
-.btn.disabled, .btn:disabled {
-    opacity: 0.65;
-}
-button, html [type="button"], [type="reset"], [type="submit"] {
-    -webkit-appearance: button;
-}
-
 .person-count .bottom .form-control {
     max-width: 120px;
     text-align: center;
@@ -103,6 +93,7 @@ button, html [type="button"], [type="reset"], [type="submit"] {
     border-bottom: 1px solid #ABABAB;
     border-width: 1px 0px 1px 0;
     background: rgba(0, 0, 0, 0);
+    box-shadow: none;
 }
 .person-count .bottom p {
     color: #919191;
@@ -130,23 +121,7 @@ button, html [type="button"], [type="reset"], [type="submit"] {
     border-radius: 0;
     color: #A6A8AB;
     font-weight: 500;
-}
-.form-group .validationMessage {
-    display: none;
-    color: #ff4338;
-    font-size: 12px;
-    margin-top: 5px;
-    width: 100%;
-}
-input[type="checkbox"] {
-    box-sizing: border-box;
-    padding: 0;
-    
-}
-.custom-control-input {
-    position: absolute;
-    z-index: -1;
-    opacity: 0;
+    box-shadow: none;
 }
 .custom-control-label {
     margin-bottom: 0;
@@ -160,16 +135,15 @@ input[type="checkbox"] {
 }
 /* ----------------------- */
 .custom-rounded-btn{
-    border: 1px solid transparent;
+    border: 0;
     border-radius: 25px;
-    padding: 15px 40px;
+    padding: 15px 30px;
     background-color: #1b1b1b;
     color: #f7f7f7;
     font-size: 1rem;
     font-weight: 700;
 }
 .previous:hover{
-    /* color: #f7f7f7; */
     background-color: rgb(204, 29, 29);
 }
 
