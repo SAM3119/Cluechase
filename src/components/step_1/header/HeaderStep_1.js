@@ -8,7 +8,7 @@ class HeaderStep_1 extends Component{
                 <div className="container">
                     <div className="row justify-content-center mb-5 ">
                         <div className="col-8"> {/*-md-4 col-sm-6 col-7*/}
-                            <div className="steps">
+                            <div className="steps-1">
                             <div className="numbers">
                                 <div className="num-line">
                                     <div className="number active">1</div>
